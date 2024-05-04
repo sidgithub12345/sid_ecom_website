@@ -1,0 +1,678 @@
+.nav-buttons{
+    margin-left: 55%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+}
+h5{
+    color: black;
+}
+
+
+/* 14 */
+button{
+    font-size: 0.8rem;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: lightblue;
+}
+
+/* 16 */
+@media only screen and (max-width:990px){
+    .nav-buttons{
+        margin: 10px;
+    }
+
+    .nav-buttons ul{
+        margin: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .nav-buttons ul .fa-solid{
+        margin: 20px 5px 10px 20px;
+    }
+}
+
+/* 10 */
+.navbar{
+    font-size: 16px;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: #000;
+    transition: 0.4s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active
+.navbar i:hover{
+    color: blue;
+}
+
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 0.7px;
+    transition: 0.4s ease;
+    /* font-weight: 500; */
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+/* home */
+
+#home{
+    background-image: url(https://img.freepik.com/free-photo/technology-panoramic-banner-collage_23-2151252958.jpg?t=st=1710645600~exp=1710649200~hmac=aae35321ad7bb2a57bcacbb29f3ad911b168c217d2084a9733644bca916b149e&w=1380);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-x: 200px; */
+    /* background-position-y: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home span{
+    color: red;
+}
+
+
+/* 15 */
+.row{
+    height: 30vh;
+    width: 100%;
+}
+#brand1{
+    height: 200px;
+    padding-top: 100px;
+}
+#brand4{
+    height: 200px;
+    padding-top: 80px;
+}
+
+
+
+/* 17 */
+#new{
+    height: 60vh;
+}
+#new .one img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#new .one{
+    position: relative;
+}
+
+#new .one .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-weight: bold;
+    transition: 0.4s ease;
+    opacity: 0.7;
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding-top: 500px;
+}
+
+/* #new .one .details:hover{
+    background-color: aliceblue;
+} */
+
+#new .one:nth-child(1) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#new .one:nth-child(2) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#new .one:nth-child(3) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* 19 */
+#featured{
+    height: 70vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img{
+    transition: 0.3s all;
+    height: 200px;
+}
+.product:hover img{
+    opacity: 0.7;
+}
+
+/* 20 */
+.product .buy-btn{
+    background-color: lightblue;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 0.3s all;
+    color: #fff;
+}
+
+/* 91 */
+.shop-buy-btn{
+    background-color: lightblue;
+    opacity: 1;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 20 */
+.product:hover .buy-btn{
+    transform: translateY(0px);
+    opacity: 1;
+}
+hr{
+    width: 30px;
+    height: 3px !important;
+    opacity: 1 !important;
+    background-color: blue;
+}
+.star{
+    padding: 10px 0;
+}
+.star i{
+    font-size: 0.9rem;
+    color: goldenrod;
+}
+
+
+/* 21 */
+#banner{
+    background-image: url(https://img.freepik.com/free-photo/communication-technology-lifestyle-concept-portrait-lovely-hipster-girl-glasses-introduce_1258-125013.jpg?t=st=1710657298~exp=1710660898~hmac=3a410e3ab29ca1e32d36ae3fc965c57aca0f65135e968c6d31ac6944a6b31af3&w=1380);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 80px;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#banner h1{
+    color: #000;
+}
+#banner button{
+    background-color: lightgray;
+}
+#banner button:hover{
+    background-color: lightblue;
+}
+
+
+/* 26 */
+footer{
+    background-color: lightgray;
+}
+
+footer h5{
+    color: lightcoral;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer li {
+    padding-bottom: 4px;
+}
+
+footer li a{
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    color: red;
+}
+
+footer .copyright a{
+    color: black;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 0 5px;
+}
+
+footer .copyright a:hover{
+    color: white;
+    background-color: black;
+}
+
+footer p{
+    color: #000;
+}
+
+/* 28 */
+
+footer .copyright img{
+    width: 70%;
+    mix-blend-mode:darken;
+}
+
+/* 29 */
+.logo{
+    width: 40px;
+    height: 40px;
+    mix-blend-mode: multiply;
+}
+
+.navbar .brand{
+    color: red;
+    margin: 3px 5px;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.row img{
+    mix-blend-mode: multiply;
+}
+
+
+
+
+
+/* 34 */
+.single-product{
+    height: 100vh;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+/* 35 */
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.single-product input:focus{
+    outline: none;
+}
+.single-product .buy-btn{
+    background-color: lightcoral;
+    opacity: 1;
+    transition: 0.4s all;
+}
+.single-product .buy-btn:hover{
+    background-color: lightblue;
+}
+#related-products{
+    height: 60vh;
+}
+
+
+
+/* 38 */
+
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart th{
+    text-align: left;
+    padding: 5px 10px;
+    color: black;
+    background-color: lightgray;
+}
+
+.cart td{
+    padding: 10px 20px;
+}
+
+.cart td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+/* 39 */
+.cart td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+.cart td a{
+    color: blue;
+}
+
+.cart .remove-btn{
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    width: 100%;
+}
+
+.cart .edit-btn{
+    color:  blue;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+}
+
+.cart .product-info p{
+    margin: 3px;
+}
+
+/* 40 */
+.cart-total{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-total table{
+    width: 100%;
+    max-width: 500px;
+    border-top: 3px solid lightcoral;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.checkout-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkout-btn{
+    background-color: lightcoral;
+    color: black;
+}
+
+
+/* 41 */
+
+#login-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid lightcoral;
+}
+
+#login-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#login-form #login-btn{
+    background-color: lightcoral;
+    color: black;
+}
+
+#login-form #register-url{
+    color: blue;
+}
+
+
+/* 42 */
+#register-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid coral;
+}
+
+#register-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#register-form #register-btn{
+    background-color: coral;
+    color: #fff;
+}
+
+#register-form #login-url{
+    color: coral;
+}
+
+
+/* 44 */
+
+#account-form{
+    width: 50%;
+    margin: 35px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#account-form input{
+    margin: 5px auto;
+}
+
+#account-form #change-pass-btn{
+    color: #fff;
+    background-color: coral;
+}
+
+#account-info #orders-btn,#logout-btn{
+    color: coral;
+    text-decoration: none;
+}
+
+
+/* 45 */
+
+.orders table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orders th{
+    padding: 5px 10px;
+    color: #fff;
+    background-color: coral;
+    /* text-align: left; */
+}
+
+/* .orders th:nth-child(2){
+    text-align: right;
+} */
+
+.orders td{
+    padding: 10px 20px;
+}
+
+.orders td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.orders .order-details-btn{
+    color: #fff;
+    background-color: #fb774b;
+}
+
+/* 46 */
+
+#checkout-form .checkout-small-element{
+    display: inline-block;
+    width: 48%;
+    margin: 10px auto;
+}
+
+#checkout-form .checkout-large-element{
+    width: 97%;
+}
+
+#checkout-form .checkout-btn-container{
+    margin: 10px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+#checkout-form #checkout-btn{
+    color: #fff;
+    background-color: coral;
+}
+
+/* 47 */
+#contact span{
+    color: coral;
+}
+
+
+/* 116 */
+.cart-quantity{
+    background-color: #fb774b;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 50%;
+    margin: -5px;
+    font-size: 1rem;
+}
+
+#footer1{
+    height: 40vh;
+}
+
+
+
+@media only screen and (max-width: 980px) {
+    #brand{
+        height: 60vh;
+    }
+
+    #brand1,#brand2,#brand3,#brand4{
+        height: 100;
+        width: 50%;
+    }
+
+    #new{
+        display: none;
+    }
+    #footer1{
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    #footer1{
+        height: 100vh;
+    }
+    #footer3 img{
+        display: none;
+    }
+
+}

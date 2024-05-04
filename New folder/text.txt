@@ -1,0 +1,16 @@
+part 55 
+
+$conn = mysqli_connect("localhost", "root","", "dbname")
+
+
+
+part 57
+php run on server:
+new terminal 
+
+type: php -S localhost:8000
+
+
+
+
+
