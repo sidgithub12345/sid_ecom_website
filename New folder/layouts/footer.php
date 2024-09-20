@@ -17,7 +17,7 @@
 
     <!-- footer -->
     <footer class="mt-5 py-5">
-        <div class="row container mx-auto pt-5" id="footer1">
+        <div class="row container mx-auto pt-5">
             <div class="footer-one col-lg-3 col-md-6 col-sm-12">
                 <img class="logo" src="assets/imgs/logo.jpg" alt="#">
                 <p class="pt-3">we provide the best products for the most affordable prices</p>
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <div class="footer-one col-lg-3 col-md-6 col-sm-12" >
+            <div class="footer-one col-lg-3 col-md-6 col-sm-12">
                 <h5 class="pb-2">instagram</h5>
                 <div class="row">
                     <img src="assets/imgs/featured(smartbuds).webp" alt="#" class="img-fluid w-25 h-25 m-2">
@@ -62,8 +62,8 @@
         </div>
 
 
-        <div class="copyright" id="footer2">
-            <div class="row container mx-auto" id="footer3">
+        <div class="copyright mt-5">
+            <div class="row container mx-auto">
                 <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
                     <img src="assets/imgs/payment.jpg" alt="#">
                 </div>
